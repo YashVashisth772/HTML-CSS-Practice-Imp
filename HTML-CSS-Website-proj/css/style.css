@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 3444px;
+}
+#logo{
+    height: 50px;
+    margin-right: 1rem;
+}
+.navbar{
+    padding: 15px; 
+    background-color: rgb(12, 11, 11) ;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    font-size: 30px;
+    text-decoration: none;
+    /* color: rgb(34, 226, 34); */
+    position: sticky;
+    top: 0px;
+    opacity: 0.7;
+}
+#nav_item{
+    display: flex;
+    
+}
+.nav-link{
+    list-style: none;
+    margin-right: 2rem;
+}
+.nav-link a{
+    text-decoration: none;
+    color: rgb(89, 189, 89);
+}
+.nav-link a:hover{
+    border: 2px solid rgb(224, 209, 209);
+    padding: 5px;
+    border-radius: 30px;
+    color: black;
+    background-color: ivory;
+}
+#btn{
+    margin-left: auto;
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+}
+#home{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    background: url('../bg1.jpg') no-repeat center center/cover;
+    height: 680px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+.h1-primary{
+    font-family: 'Bree Serif', serif;
+    font-size: 3.8rem;
+    padding: 12px;
+}
+#home p{
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+}
+#home h1{color: rgb(255, 255, 255);}
+/* #services h1{
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+} */
+.h1-secondary{
+    font-family: 'Bree Serif', serif;
+    font-size: 2.3rem;
+    padding: 12px;
+}
+
+.center{text-align: center}
+
+#box_container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.box{
+    height: 500px;
+    width: 350px;
+    padding: 34px;
+    margin: 2px 55px;
+    border: 2px solid rgb(136, 29, 29);
+    border-radius: 30px;
+    /* display: flex;
+    justify-content: center; */
+    background-color: rgb(206, 201, 201);
+}
+#box_container .box img{
+    height: 160px;
+    margin: auto;
+    display: block;
+}
+.box p{
+    font-family: 'Bree Serif', serif;
+    font-size: 1rem;
+}
+.container1{
+    border: 2px solid black;
+    position: relative;
+}
+.container1 img{
+    width: 800px;
+    height: 400px;
+}
+.container1 h1{
+    position: absolute;
+    top: 20px;
+    left: 300px;
+    color: rgb(80, 223, 104);
+    border: 2px solid red;
+}
+#outSquare{
+    border: 2px solid grey;
+    background-color: rgb(89, 189, 89);
+    height: 600px;width: 600px;
+    margin-left: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#inSquare{
+    border: 2px solid black;
+    height: 300px;width: 300px;
+}
+#client_section{
+    position: relative;
+}
+#client_section::before{
+    content:'';
+    background: url('../bg.jpg');
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+
+#client_section img{
+    height: 100px;
+    margin-right: 34px ;
+}
+.client_imgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

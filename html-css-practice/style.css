@@ -1,0 +1,35 @@
+.grandparent{
+    border: 2px solid black;
+    height: 500px;
+    width: 500px;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.parent{
+
+    border: 2px solid black;
+    width: 380px;
+    height: 180px;
+    margin-top: 30px;
+    background-color: rgb(25, 165, 86);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child{
+    border: 2px solid black;
+    height: 120px;
+    width: 150px;
+    margin-right: 10px;
+    background-color: rgb(29, 171, 236);
+}
+.anchor{
+    display: block;
+    border: 2px solid black;
+    background-color: rgba(3, 170, 73, 0.616);
+    height: 30px;
+}
